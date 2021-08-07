@@ -17,7 +17,7 @@ phases:
       - echo "===== Hello from pre build ===="
       - ls -la 
       - ls -la ../
-      - cd ../lambdas/hello-world/
+      - cd hello-world/
   build:
     commands:
       - echo "==== Deploying ===="
